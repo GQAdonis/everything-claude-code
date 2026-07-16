@@ -5,3 +5,7 @@
 *.jpeg binary
 *.gif binary
 *.ico binary
+
+# Prometheus KBD wiki: append-only files — union-merge to avoid conflicts across sessions/machines
+.prometheus/knowledge/wiki/log.md   merge=union
+.prometheus/knowledge/wiki/index.md merge=union
