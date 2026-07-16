@@ -10,7 +10,6 @@ tags:
 - empty-session
 - termination-metadata
 links:
-- empty-session-termination-metadata-2026-07-16
 sources:
 - stdin
 timestamp: 2026-07-16T00:18:33.373596+00:00
@@ -33,7 +32,7 @@ A session ended at `2026-07-16T00:10:32Z` with an upstream contribution phase pl
 
 ## Interpretation
 
-The session metadata records a planned upstream contribution phase, but no completed changes or pending next steps were captured. Unlike the unknown-phase empty session pattern in [Empty Session Termination Metadata 2026-07-16](/empty-session-termination-metadata-2026-07-16.md), this record preserves an explicit phase and stage while still indicating zero progress.
+The session metadata records a planned upstream contribution phase, but no completed changes or pending next steps were captured. Unlike the unknown-phase empty session pattern in Empty Session Termination Metadata 2026-07-16, this record preserves an explicit phase and stage while still indicating zero progress.
 
 # Citations
 
